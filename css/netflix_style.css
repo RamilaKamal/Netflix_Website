@@ -1,0 +1,264 @@
+body{
+    background-color: black;
+    color: white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    max-width: 640px;
+}
+h2{
+    margin: 1rem auto;
+    font-size: 1.625rem;
+}
+
+/* TITLE  */
+.header{
+    height: 100%;
+    margin: 0 3rem;
+    max-width: 1920px;
+    position: relative;
+    z-index: 10;
+} 
+.logo-heading{
+    color: #e50914;
+    float: left;
+    font-weight: bolder;
+    margin-top: 30px;
+    position: relative;
+}    
+.login-btn{
+    background-color: #e50914;
+    border-radius: 3px;
+    color: #fff;
+    float: right;
+    font-size: 17px;
+    margin-top: 30px;
+    padding: 7px 20px;
+}
+.login-btn:hover{
+    color:#fff;
+}
+.title-background{
+    bottom: 0;
+    left: 0;
+    opacity: 0.3;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: -70px;
+    z-index: 0;
+}
+.title-img{
+    border-bottom: 8px solid #222;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.title-text{
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 100px 5%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.title-heading{
+    font-size: 3rem;
+    margin: 18% 155px auto;
+}
+.email-form-title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.email-text{
+    border: 1px solid #8c8c8c;
+    font-size: 16px;
+    height: 56px;
+    min-width: 400px;
+}
+.btn{
+    background-color: #e50914;
+    border-left: 1px solid #8c8c8c;
+    border-radius: 0;
+    color: #fff;
+    font-size: 1.625rem;
+    min-height: 38px;
+}
+
+/* FEATURES  */
+.card{
+    background: transparent;
+    border-bottom: 8px solid #222;
+    margin-bottom: 0;
+    padding: 70px 45px;
+    position: relative;
+}
+.animation-card-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px; 
+}
+.card-text{
+    flex: 0 1 auto;
+    height: 100%;
+    padding: 0 0 0 3rem;
+    text-align: left;
+    width: 52%;
+    z-index: 3;
+}
+.image-container{
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    padding: 0; 
+    width: 58%;
+}
+.image{
+    position: relative;
+    z-index: 2;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+.card-video{
+    display: inline-block;
+    height: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 73%;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%,-50%);
+    width: 100%; 
+}
+.animation-card-text{
+    left: 550px;
+} 
+.animation-card-image{
+    left: -550px;
+} 
+
+/* FAQS */
+.faq-title{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    max-width: none;
+}
+.faq-list{
+    list-style-type: none;
+    margin: 2em auto;
+    max-width: 815px;
+    width: 75%;
+}
+.faq-question{
+    background-color: #303030;
+    color: #fff;
+    border: 0;
+    display: block;
+    font-weight: 500;
+    font-size: 26px;
+    font-stretch: 100%;
+    margin-bottom: 0.6em;
+    padding: 0.8em 2.2em 0.5em 1.2em; 
+    text-align: left; 
+    width: 100%;
+}
+
+/* FOOTER */
+.footer-card{
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding: 70px 45px;
+    padding-bottom: 0;
+    max-width: 1000px;
+}
+.site-footer{
+    color: #737373;
+    margin: 0 auto;
+    padding-top: 0;
+    text-align: left;
+}
+.footer-top{
+    margin: 0 0 30px;
+    text-align: left;
+}
+.footer-top-a{
+    color: #737373;
+}
+.footer-top-a:hover{
+    color: #737373;
+}
+.footer-links{
+    box-sizing: border-box;
+    font-size: 13px;
+    max-width: 1900px;
+    padding: 0;
+    margin: 0;
+}
+.footer-link-item{
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-left: 0;
+    min-width: 300px;
+    padding: 0 20px 0 0;
+    vertical-align: top;
+}
+.footer-link{
+    color: #737373;
+}
+.footer-link:hover{
+    color: #737373;
+}
+.footer-country{
+    margin-top: 24px;
+    text-align: left;
+}
+
+@media (max-width: 1028px) and (min-width: 950px){
+    #title{
+        position: relative;
+        display: block;
+    }
+    .title-heading, h1{
+        font-size: 3.5rem;
+    }
+    h2, h3, p{
+        font-size: 1.78rem;
+    }
+    .animation-card-container{
+        display: grid;
+    }
+    .card-text{
+        text-align: center;
+        width: 100%;
+    }
+    .animation-card-text, .animation-card-image{
+        left: 0;
+    } 
+    .faq-list{
+        width: 815px;
+    }
+    .site-footer{
+        text-align: left;
+    }
+    .footer-link-item{
+        min-width: 400px;
+    }
+    .footer-top, .footer-link-item, .footer-country{
+        font-size: 2rem;
+    }
+    
+}
